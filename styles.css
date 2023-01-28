@@ -6,24 +6,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
 .container {
-  max-width: 960px;
+  max-width: 35%;
   margin: 0 auto;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* ohhh that's how you make columns!*/
-  border-radius: 12px;
+  border-radius: 0.6rem;
   margin: 2rem;
   overflow: hidden;
 }
 .column {
-  padding: 40px;
+  padding: 2.5rem;
 }
 .sedans {
   background-color: hsl(31, 77%, 52%);
@@ -34,10 +34,10 @@ body {
 .luxury {
   background-color: hsl(179, 100%, 13%);
 }
-.column h2 {
+.column h1 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.8rem;
   color: hsl(0, 0%, 95%);
   text-transform: uppercase;
 }
@@ -47,12 +47,12 @@ body {
 }
 .column a {
   text-decoration: none;
-  margin-top: 60px;
+  margin-top: 3.75rem;
   display: inline-block; /* to make the margin work because a is an inline element and we can't apply any margin to it*/
   background-color: hsl(0, 0%, 95%);
-  padding: 13px 27px;
-  border-radius: 25px;
-  border: 2px solid hsl(0, 0%, 95%);
+  padding: 0.8rem 1.6rem;
+  border-radius: 1.5rem;
+  border: 0.12rem solid hsl(0, 0%, 95%);
   transition: all 0.2s ease-in-out;
 }
 .sedans a {
