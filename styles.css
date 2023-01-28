@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
@@ -33,7 +34,7 @@ body {
 .luxury {
   background-color: hsl(179, 100%, 13%);
 }
-.column h1 {
+.column h2 {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
   font-size: 30px;
