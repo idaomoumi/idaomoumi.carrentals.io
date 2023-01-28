@@ -3,9 +3,9 @@
 body {
   background-color: hsl(0, 0%, 95%);
   min-height: 100vh;
-  font-size: 15px;
   display: flex;
   align-items: center;
+  font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
@@ -13,6 +13,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* ohhh that's how you make columns!*/
@@ -37,6 +38,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
 }
 .column p {
   color: hsla(0, 0%, 100%, 0.75);
@@ -46,7 +48,6 @@ body {
   text-decoration: none;
   margin-top: 60px;
   display: inline-block; /* to make the margin work because a is an inline element and we can't apply any margin to it*/
-  text-decoration: none;
   background-color: hsl(0, 0%, 95%);
   padding: 13px 27px;
   border-radius: 25px;
@@ -76,69 +77,3 @@ body {
     margin: 2rem 0.5rem;
   }
 }
-
-/* 
-.container {
-  display: flex;
-  color: white;
-  margin: 0 auto;
-  min-height: 100vh;
-  align-items: center;
-  max-width: 100vh;
-  font-family: "Poppins", sans-serif;
-  font-size: small;
-}
-h1 {
-  text-transform: uppercase;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-.sedans {
-  background-color: hsl(31, 77%, 52%)
-  padding: 20px;
-}
-.suvs {
-  background-color: hsl(184, 100%, 22%)
-  padding: 20px;
-}
-.luxury {
-  background-color: hsl(179, 100%, 13%)
-  padding: 20px;
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-button {
-  padding: 10px;
-  border: 3px solid white;
-  border-radius: 20px;
-  background-color: white;
-}
-.sedans button {
-  color: #e28525;
-}
-.suvs button {
-  color: #016972;
-}
-.luxury button {
-  color: #00403f;
-}
-button:hover {
-  background-color: transparent;
-  color: white;
-}
-/* @media (max-width: 720px) {
-  
-  } */
-/* 
-@media screen and (max-width: 480px) {
-  .container {
-    flex-direction: column;
-  }
-} 
-
- */
